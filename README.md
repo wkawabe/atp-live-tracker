@@ -2,7 +2,30 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, set up the environment variables:
+
+1. Copy the example environment file:
+   ```bash
+   cp .env.local.example .env.local
+   # or just create .env.local and add your keys
+   ```
+   *Note: I have already created a `.env.local` template for you.*
+
+2. Open `.env.local` and update `RAPIDAPI_KEY` with your actual API key.
+
+Finally, run the development server:
 
 ```bash
 npm run dev
